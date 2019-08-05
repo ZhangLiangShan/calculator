@@ -36,6 +36,9 @@
     <ClCompile Include="expr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="expr.h">
@@ -51,5 +54,10 @@
     <QtRcc Include="expr.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
